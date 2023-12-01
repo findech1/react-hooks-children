@@ -4,6 +4,7 @@ function Container({
   header,
   children,
   textPosition = "", // possible values: left, right, center
+  
   direction = "horizontal", // possible values: vertical, horizontal
   contentPosition = "center", // possible values: left, right, center
 }) {
@@ -16,6 +17,7 @@ function Container({
       </div>
     </div>
   );
+
 }
 
 export default Container;
